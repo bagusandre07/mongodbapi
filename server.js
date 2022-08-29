@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const server = require('http').createServer(app);
-const userRouter = require('../router/user');
-const messageRouter = require('../router/message');
+const userRouter = require('./router/user');
+const messageRouter = require('./router/message');
 
 var port_number = 8080;
 //process.env.PORT || 
